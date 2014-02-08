@@ -1,4 +1,4 @@
 name: capybala.com
 markdown: redcarpet
 pygments: true
-relative_permalinks: false
+permalink: /:title/
