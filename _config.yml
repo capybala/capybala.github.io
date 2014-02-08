@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: capybala.com
 markdown: redcarpet
 pygments: true
+relative_permalinks: false
