@@ -6,14 +6,37 @@ title: capybala.com-カピバラドットコム- - We provide happy service for 
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li>
-	  <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
       <div>
           {% assign pieces = post.path|split:'/' %}
-		  <a href="{{ post.url }}"><img style="max-width: 500px" src="/images{{ post.id }}/thumbnail.png"></a>
-  </div>
+          <a href="{{ post.url }}"><img style="max-width: 500px" src="/images{{ post.id }}/thumbnail.png"></a>
+      </div>
       <p>{{ post.description }}</p>
-      </li>
+    </li>
     {% endfor %}
+
+    <li>
+    <h3>当サイトについて</h3>
+    <p>
+    当サイトは、Webデザイナーとプログラマのユニット”capybala-カピバラ-”が、気ままに開発するサービスを紹介するサイトです。
+    </p>
+    <p>
+    「使う人がちょっと幸せになれるアプリケーション・サービス」を開発していきます。利用料は特に頂いていません。無料です。
+    </p>
+    <p>
+    ご意見・ご感想・ご要望・バグ報告などがございましたら、下記メールアドレスまでご連絡ください。
+    </p>
+    <p>
+    <img src="/images/icon_orangain.png" style="width: 32px">
+    <a href="https://twitter.com/orangain">@orangain</a><br />
+    プログラマ
+    </p>
+    <p>
+    <img src="/images/icon_webooker.png" style="width: 32px">
+    <a href="https://twitter.com/webooker_log">@webooker_log</a><br />
+    Web・DTPデザイナー
+    </p>
+    </li>
   </ul>
 </div>
