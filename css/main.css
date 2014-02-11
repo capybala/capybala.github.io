@@ -139,8 +139,26 @@ a:visited { color: #a0a; }
   float: left;
 }
 #home .posts li .bottom_area .btn_more{
-  width: 40%;
   float: right;
+  height: 0;
+  width: 0;
+  margin-top:25px;
+  margin-right: -20px;
+  border:75px solid #000000;
+  border-color: transparent;
+  border-left-color: #000000;
+}
+#home .posts li .bottom_area .btn_more p{
+  margin-top: -10px;
+  margin-left: -60px;
+  font-size: 0.8em;
+}
+#home .posts li .bottom_area .btn_more p a{
+  color: #ffffff;
+  text-decoration: none;
+}
+#home .posts li .bottom_area .btn_more p a:hover{
+  text-decoration: underline;
 }
 #home .posts li .bottom_area .btn_use{
   position: absolute;
