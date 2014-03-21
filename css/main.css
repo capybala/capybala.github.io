@@ -77,7 +77,11 @@ a:visited { color: #f56fac; }
   color: #ffffff;
 }
 
-.footer{}
+.footer{
+  padding: 20px 0;
+  background: #353535;
+  color: #ffffff;
+}
 .footer .copy{}
 /*****************************************************************************/
 /*
