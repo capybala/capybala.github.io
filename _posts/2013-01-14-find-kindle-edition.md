@@ -1,13 +1,10 @@
 ---
 layout: post
 title:  【Chrome拡張機能】「Find eBook Edition」
+link_to_use: https://chrome.google.com/webstore/detail/find-ebook-edition/jhhpocdmfelpmobcnmjfppdpnbepkono
 ---
 
 Amazonのほしい物リストに登録された紙の本にKindle版がある場合、「Kindle版を見る」ボタンを表示します。 Amazonのほしい物リストに入れたまま、買っていない本がありませんか？この拡張機能を使うと、ほしい物リストに登録された紙の本のKindle版を簡単に探せます。気軽に読める電子書籍で、読書を楽しみましょう。
-
-公開日：2011/04/23
-
-[コソリップを利用する](http://cosolip.appspot.com/)
 
 ### 利用方法
 
