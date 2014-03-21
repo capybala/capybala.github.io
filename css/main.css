@@ -78,11 +78,54 @@ a:visited { color: #f56fac; }
 }
 
 .footer{
+  margin: 0;
   padding: 20px 0;
   background: #353535;
   color: #ffffff;
+  text-align: center;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #000000;
 }
 .footer .copy{}
+
+.footer .to_top{
+  position: fixed;
+  bottom:0;
+  right: 5%;
+  height: 0;
+  width: 0;
+  border-top:0px solid transparent;
+  border-left:55px solid transparent;
+  border-right:55px solid transparent;
+  border-bottom:95px solid #686868;
+}
+.footer .to_top a{
+  display: block;
+  width: 95px;
+  margin-top: 10px;
+  margin-left: -68px;
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer .to_top a:hover{
+  text-shadow:2px 2px 2px #333;
+}
+.footer .to_top .arrow{
+  display: block;
+  margin-bottom: 5px;
+}
+
+#scroll-to-top {
+  transition: opacity 0.1s linear 0;
+  opacity: 1;
+}
+#scroll-to-top.scroll-to-top-not-display {
+  -webkit-transform:translate(-9999px);
+  -moz-transform:translate(-9999px);
+  transform:translate(-9999px);
+  opacity: 0;
+}
 /*****************************************************************************/
 /*
 /* Posts

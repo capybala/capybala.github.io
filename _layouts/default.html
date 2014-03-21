@@ -12,6 +12,10 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- javascript -->
+        <script type="text/javascript "src="/js/main.js"></script>
+
+
     </head>
     <body>
 
@@ -24,7 +28,8 @@
           {{ content }}
 
           <footer class="footer">
-              <p class="copy">Copyright 2009-2014 &copy; capybala.com</p>
+            <div class="to_top scroll-to-top-not-display" id="scroll-to-top"><a href="" onclick="scrollToTop(); return false"><span class="arrow">↑</span>TO<br />TOP</a></div>
+            <p class="copy">Copyright 2009-<script type="text/javascript" language="JavaScript">today=new Date();y=today.getFullYear(); document.write(y);</script> &copy; <a href="/">capybala.com</a> All Rights Reserved.</p>
           </footer>
         </div>
 
