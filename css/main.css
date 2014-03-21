@@ -25,9 +25,15 @@ h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 ul {list-style: none;}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a {
+  color: #43a7c7;
+  text-decoration:underline;
+}
+a:hover {
+  color: #267c97;
+  text-decoration: none;
+}
+a:visited { color: #f56fac; }
 
 /* clearfix */
 .cf:before,
@@ -106,7 +112,8 @@ a:visited { color: #a0a; }
   border-top:1px solid #43a7c7;
   border-bottom:1px solid #186077;
   color: #ffffff;
-  font-size: 1.8em;
+  font-size: 1.3em;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
   border-top-left-radius: 20px;
 }
 #home .posts li .title a{
@@ -143,7 +150,7 @@ a:visited { color: #a0a; }
   height: 0;
   width: 0;
   margin-top:25px;
-  margin-right: -20px;
+  margin-right: -50px;
   border:75px solid #000000;
   border-color: transparent;
   border-left-color: #000000;
@@ -154,6 +161,10 @@ a:visited { color: #a0a; }
   font-size: 0.8em;
 }
 #home .posts li .bottom_area .btn_more p a{
+  display: block;
+  margin-top: -60px;
+  margin-left: -5px;
+  padding:50px 5px; 
   color: #ffffff;
   text-decoration: none;
 }
@@ -184,4 +195,48 @@ a:visited { color: #a0a; }
 }*/
 #home .posts li .bottom_area .btn_use a:hover{
   text-decoration: underline;
+}
+
+/* about_us */
+#about_us{
+  padding-bottom: 30px;
+}
+#about_us .sub_tit{
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  background: #666666;
+  border-top:1px solid #999999;
+  border-bottom:1px solid #333333;
+  color: #ffffff;
+  font-size: 1.3em;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  border-top-left-radius: 20px;
+}
+#about_us .txt01{
+  margin:10px 20px;
+}
+#about_us .profile{
+  margin:30px 20px 0;
+}
+#about_us .profile dt{
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 40%;
+  margin-right: 10px;
+  padding: 2% 3%;
+  background: #efefef;
+  color: #666666;
+}
+#about_us .profile dd{
+  width: 40%;
+}
+#about_us .profile dt,
+#about_us .profile dd{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#about_us .icon{
+  width: 50px;
+  display: block;
+  margin-bottom: 10px;
 }
