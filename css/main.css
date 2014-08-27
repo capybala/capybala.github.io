@@ -364,6 +364,12 @@ a:visited { color: #f56fac; }
 	#home .posts li .thumb img{
 		width: 100%;
 	}
+	#post_detail .thumbnail img{
+		width: 100%;
+	}
+	#post_detail {
+		width: 90%;
+	}
 }
 @media screen and (min-width: 960px) {
   #container {
