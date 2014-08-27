@@ -131,9 +131,9 @@ a:visited { color: #f56fac; }
 }
 #home .posts li .bottom_area .btn_more p a{
   display: block;
-  margin-top: -60px;
-  margin-left: -5px;
-  padding:50px 5px; 
+  margin-top: -70px;
+  margin-left: -15px;
+  padding:60px 11px; 
   color: #ffffff;
   text-decoration: none;
 }
