@@ -185,27 +185,32 @@ a:visited { color: #f56fac; }
 #about_us .profile{
   margin:30px 20px 0;
 }
-#about_us .profile dt{
+#about_us .profile > li {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 40%;
+  width: 48%;
+  min-height: 180px;
   margin-right: 10px;
-  padding: 2% 3%;
+  padding: 4% 3%;
   background: #efefef;
   color: #666666;
+  overflow: hidden;
 }
-#about_us .profile dd{
-  width: 40%;
+#about_us .profile > li > ul > li {
+  margin: 0;
+  width: auto;
+  background: none;
 }
-#about_us .profile dt,
-#about_us .profile dd{
-  display: inline-block;
+
+#about_us .profile > li > ul > li:first-child {
   margin-bottom: 10px;
 }
+
+
 #about_us .icon{
   width: 50px;
   display: block;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
 }
 
 /*****************************************************************************/
@@ -365,15 +370,14 @@ a:visited { color: #f56fac; }
 		width: 100%;
 	}
 	#post_detail .thumbnail img{
-		width: 100%;
+		width: 90%;
 	}
 	#post_detail {
 		width: 90%;
 	}
 }
 @media screen and (min-width: 960px) {
-  #container {
-    widht: 960px;
-    margin: 0 auto;
-  }
+	#post_detail .thumbnail img{
+		width: 90%;
+	}
 }
