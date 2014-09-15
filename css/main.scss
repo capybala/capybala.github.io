@@ -342,7 +342,17 @@ a:visited { color: #f56fac; }
 
   .meta{
     text-align: right;
-    margin-right: 5%;
+    margin: 3% 5%;
+    padding-bottom: 1%;
+    font-size: $fontsize-title;
+    color: $color-main-shadow;
+
+    &:before{
+      content:"■";
+      padding: 0 5px 0 0;
+      color: $color-main-highlight;
+      font-size: $fontsize-title;
+    }
   }
   .thumbnail{
     max-width: 650px;
