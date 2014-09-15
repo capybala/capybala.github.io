@@ -387,6 +387,10 @@ a:visited { color: #f56fac; }
       color: #ffffff;
     }
 
+    ol,ul{
+      list-style-position: inside;
+    }
+
     img{
       margin: 3% 0;
       padding: 1%;
