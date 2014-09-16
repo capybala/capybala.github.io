@@ -1,4 +1,3 @@
-
 //トップへ戻るボタン
 function scrollToTop() {
   var x1 = x2 = x3 = 0;
@@ -17,7 +16,7 @@ function scrollToTop() {
   var y = Math.max(y1, Math.max(y2, y3));
   window.scrollTo(Math.floor(x / 2), Math.floor(y / 2));
   if (x > 0 || y > 0) {
-    window.setTimeout("scrollToTop()", 30);
+    window.setTimeout(scrollToTop(), 30);
   }
 }
 
@@ -34,4 +33,4 @@ window.onscroll = function() {
     } else {
       element.classList.add('scroll-to-top-not-display');
     }
-}
+};
