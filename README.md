@@ -1,7 +1,7 @@
 capybala.github.io
 ==================
 
-GitHub pages for [capybala.com](http://capybala.com/)
+GitHub pages for [capybala.com](https://capybala.com/)
 
 
 開発に必要な最初の作業（一度だけ必要）
