@@ -1,5 +1,3 @@
 name: capybala.com
-markdown: redcarpet
-pygments: true
 permalink: /:title/
 exclude: [README.md, CNAME]
