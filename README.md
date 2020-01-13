@@ -4,17 +4,18 @@ GitHub pages for [capybala.com](https://capybala.com/)
 
 ## 開発に必要な最初の作業（一度だけ必要）
 
-[Jekyll](http://jekyllrb.com/) 2.0 以降のインストール
+- Ruby 2.4 以降
 
 ```
-sudo gem install jekyll
+cd ~/capybala.github.io
+bundle install
 ```
 
 ## 開発用サーバーの起動
 
 ```
 cd ~/capybala.github.io
-jekyll serve --watch
+bundle exec jekyll serve --watch
 ```
 
 この状態で、ブラウザで [http://localhost:4000/](http://localhost:4000/) にアクセスすると表示される。
